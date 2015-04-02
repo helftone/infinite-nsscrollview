@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32274041ACB37AE00B569EC /* HTInfiniteClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F32274031ACB37AE00B569EC /* HTInfiniteClipView.m */; };
+		F360A8821ACABE99002C0333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F360A8811ACABE99002C0333 /* AppDelegate.m */; };
+		F360A8841ACABE99002C0333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F360A8831ACABE99002C0333 /* main.m */; };
+		F360A8861ACABE99002C0333 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360A8851ACABE99002C0333 /* Images.xcassets */; };
+		F360A8891ACABE99002C0333 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F360A8871ACABE99002C0333 /* MainMenu.xib */; };
+		F360A8951ACABE99002C0333 /* Infinite_NSScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F360A8941ACABE99002C0333 /* Infinite_NSScrollViewTests.m */; };
+		F360A8A01ACABEDC002C0333 /* HTInfiniteDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F360A89F1ACABEDC002C0333 /* HTInfiniteDocumentView.m */; };
+		F360A8A31ACB16BF002C0333 /* HTContentTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = F360A8A21ACB16BF002C0333 /* HTContentTileView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F360A88F1ACABE99002C0333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F360A8731ACABE99002C0333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F360A87A1ACABE99002C0333;
+			remoteInfo = "Infinite-NSScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32274021ACB37AE00B569EC /* HTInfiniteClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTInfiniteClipView.h; sourceTree = "<group>"; };
+		F32274031ACB37AE00B569EC /* HTInfiniteClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTInfiniteClipView.m; sourceTree = "<group>"; };
+		F360A87B1ACABE99002C0333 /* Infinite-NSScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite-NSScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F360A87F1ACABE99002C0333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F360A8801ACABE99002C0333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F360A8811ACABE99002C0333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F360A8831ACABE99002C0333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F360A8851ACABE99002C0333 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F360A8881ACABE99002C0333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F360A88E1ACABE99002C0333 /* Infinite-NSScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infinite-NSScrollViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F360A8931ACABE99002C0333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F360A8941ACABE99002C0333 /* Infinite_NSScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Infinite_NSScrollViewTests.m; sourceTree = "<group>"; };
+		F360A89E1ACABEDC002C0333 /* HTInfiniteDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTInfiniteDocumentView.h; sourceTree = "<group>"; };
+		F360A89F1ACABEDC002C0333 /* HTInfiniteDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTInfiniteDocumentView.m; sourceTree = "<group>"; };
+		F360A8A11ACB16BF002C0333 /* HTContentTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTContentTileView.h; sourceTree = "<group>"; };
+		F360A8A21ACB16BF002C0333 /* HTContentTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTContentTileView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F360A8781ACABE99002C0333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F360A88B1ACABE99002C0333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F360A8721ACABE99002C0333 = {
+			isa = PBXGroup;
+			children = (
+				F360A87D1ACABE99002C0333 /* Infinite-NSScrollView */,
+				F360A8911ACABE99002C0333 /* Infinite-NSScrollViewTests */,
+				F360A87C1ACABE99002C0333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F360A87C1ACABE99002C0333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F360A87B1ACABE99002C0333 /* Infinite-NSScrollView.app */,
+				F360A88E1ACABE99002C0333 /* Infinite-NSScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F360A87D1ACABE99002C0333 /* Infinite-NSScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F360A8801ACABE99002C0333 /* AppDelegate.h */,
+				F360A8811ACABE99002C0333 /* AppDelegate.m */,
+				F360A8851ACABE99002C0333 /* Images.xcassets */,
+				F360A8871ACABE99002C0333 /* MainMenu.xib */,
+				F360A87E1ACABE99002C0333 /* Supporting Files */,
+				F360A89E1ACABEDC002C0333 /* HTInfiniteDocumentView.h */,
+				F360A89F1ACABEDC002C0333 /* HTInfiniteDocumentView.m */,
+				F360A8A11ACB16BF002C0333 /* HTContentTileView.h */,
+				F360A8A21ACB16BF002C0333 /* HTContentTileView.m */,
+				F32274021ACB37AE00B569EC /* HTInfiniteClipView.h */,
+				F32274031ACB37AE00B569EC /* HTInfiniteClipView.m */,
+			);
+			path = "Infinite-NSScrollView";
+			sourceTree = "<group>";
+		};
+		F360A87E1ACABE99002C0333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F360A87F1ACABE99002C0333 /* Info.plist */,
+				F360A8831ACABE99002C0333 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F360A8911ACABE99002C0333 /* Infinite-NSScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F360A8941ACABE99002C0333 /* Infinite_NSScrollViewTests.m */,
+				F360A8921ACABE99002C0333 /* Supporting Files */,
+			);
+			path = "Infinite-NSScrollViewTests";
+			sourceTree = "<group>";
+		};
+		F360A8921ACABE99002C0333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F360A8931ACABE99002C0333 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F360A87A1ACABE99002C0333 /* Infinite-NSScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F360A8981ACABE99002C0333 /* Build configuration list for PBXNativeTarget "Infinite-NSScrollView" */;
+			buildPhases = (
+				F360A8771ACABE99002C0333 /* Sources */,
+				F360A8781ACABE99002C0333 /* Frameworks */,
+				F360A8791ACABE99002C0333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infinite-NSScrollView";
+			productName = "Infinite-NSScrollView";
+			productReference = F360A87B1ACABE99002C0333 /* Infinite-NSScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F360A88D1ACABE99002C0333 /* Infinite-NSScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F360A89B1ACABE99002C0333 /* Build configuration list for PBXNativeTarget "Infinite-NSScrollViewTests" */;
+			buildPhases = (
+				F360A88A1ACABE99002C0333 /* Sources */,
+				F360A88B1ACABE99002C0333 /* Frameworks */,
+				F360A88C1ACABE99002C0333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F360A8901ACABE99002C0333 /* PBXTargetDependency */,
+			);
+			name = "Infinite-NSScrollViewTests";
+			productName = "Infinite-NSScrollViewTests";
+			productReference = F360A88E1ACABE99002C0333 /* Infinite-NSScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F360A8731ACABE99002C0333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Helftone;
+				TargetAttributes = {
+					F360A87A1ACABE99002C0333 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F360A88D1ACABE99002C0333 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F360A87A1ACABE99002C0333;
+					};
+				};
+			};
+			buildConfigurationList = F360A8761ACABE99002C0333 /* Build configuration list for PBXProject "Infinite-NSScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F360A8721ACABE99002C0333;
+			productRefGroup = F360A87C1ACABE99002C0333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F360A87A1ACABE99002C0333 /* Infinite-NSScrollView */,
+				F360A88D1ACABE99002C0333 /* Infinite-NSScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F360A8791ACABE99002C0333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360A8861ACABE99002C0333 /* Images.xcassets in Resources */,
+				F360A8891ACABE99002C0333 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F360A88C1ACABE99002C0333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F360A8771ACABE99002C0333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360A8A31ACB16BF002C0333 /* HTContentTileView.m in Sources */,
+				F360A8841ACABE99002C0333 /* main.m in Sources */,
+				F360A8821ACABE99002C0333 /* AppDelegate.m in Sources */,
+				F360A8A01ACABEDC002C0333 /* HTInfiniteDocumentView.m in Sources */,
+				F32274041ACB37AE00B569EC /* HTInfiniteClipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F360A88A1ACABE99002C0333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360A8951ACABE99002C0333 /* Infinite_NSScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F360A8901ACABE99002C0333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F360A87A1ACABE99002C0333 /* Infinite-NSScrollView */;
+			targetProxy = F360A88F1ACABE99002C0333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F360A8871ACABE99002C0333 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F360A8881ACABE99002C0333 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F360A8961ACABE99002C0333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F360A8971ACABE99002C0333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F360A8991ACABE99002C0333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Infinite-NSScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F360A89A1ACABE99002C0333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Infinite-NSScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F360A89C1ACABE99002C0333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Infinite-NSScrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinite-NSScrollView.app/Contents/MacOS/Infinite-NSScrollView";
+			};
+			name = Debug;
+		};
+		F360A89D1ACABE99002C0333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Infinite-NSScrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinite-NSScrollView.app/Contents/MacOS/Infinite-NSScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F360A8761ACABE99002C0333 /* Build configuration list for PBXProject "Infinite-NSScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F360A8961ACABE99002C0333 /* Debug */,
+				F360A8971ACABE99002C0333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F360A8981ACABE99002C0333 /* Build configuration list for PBXNativeTarget "Infinite-NSScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F360A8991ACABE99002C0333 /* Debug */,
+				F360A89A1ACABE99002C0333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F360A89B1ACABE99002C0333 /* Build configuration list for PBXNativeTarget "Infinite-NSScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F360A89C1ACABE99002C0333 /* Debug */,
+				F360A89D1ACABE99002C0333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F360A8731ACABE99002C0333 /* Project object */;
+}
